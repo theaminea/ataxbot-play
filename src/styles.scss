@@ -1,0 +1,49 @@
+@font-face {
+  font-family: 'Battambang';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Battambang Bold"), local("Battambang-Bold"), url('assets/fonts/Hanuman/battambang-bold.woff2') format("woff2");
+  unicode-range: U + 1780-17FF, U + 200B-200C, U + 25CC
+}
+
+/* Montserrat */
+@font-face {
+  font-family: 'Montserrat-Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local("Montserrat Regular"), local("Montserrat-Regular"), url('assets/fonts/Montserrat/Montserrat-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Montserrat-Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local("Montserrat Bold"), local("Montserrat-Bold"), url('assets/fonts/Montserrat/Montserrat-Bold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Montserrat-Bolder';
+  font-style: normal;
+  font-weight: normal;
+  src: local("Montserrat-Bolder"), local("Montserrat-Bolder"), url('assets/fonts/Montserrat/Montserrat-ExtraBold.woff2') format('woff2');
+}
+body{
+  background-color: #ffffff;
+  font-family: 'Battambang',
+  sans-serif;
+}
+* {
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: 'Battambang',
+  sans-serif;
+}
+
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
